@@ -3,6 +3,7 @@ body {
     padding: 0px;
     box-sizing: border-box;
     background-color: white;
+    height: 1020px;
 }
 
 .fundo {
@@ -40,13 +41,14 @@ body {
     left: 200px;
     top: 100px;
     z-index: 2;
-    
+    box-shadow: 3px 3px 3px 3px rgb(116, 108, 108);
 }
 
 .main h1 {
     padding: 50px 40px 50px 60px;
-
+    opacity: 0.80;
     font-size: 25px;
+    text-decoration: none;
 }
 
 ol {
@@ -60,10 +62,39 @@ ol {
     padding-bottom: 30px;
 }
 
+span {
+    padding-right: 5px;
+    padding-left: 5px;
+    width: 50px;
+    background-color: rgb(163, 159, 159);
+}
 
+.ajuda {
+    margin-top: 150px;
+    text-align: center;
+    
+}
 
-@media screen and (max-width: 1095px)
-.vGm4z ._3AjBo {
-    flex: 1 1 auto;
-    max-width: 100%;
+.ajuda h5 {
+    font-size: 20px;
+}
+
+button {
+    position: absolute;
+    top: 220px;
+    right: 130px;
+    height: 150px;
+    width: 150px;
+    background-color:#2a9955;
+    color: white;
+    border-radius: 50px;
+}
+
+.botao p {
+    text-transform: uppercase;
+}
+
+button:hover {
+    background-color: white;
+    color: #2a9955;
 }
