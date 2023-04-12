@@ -1,0 +1,58 @@
+body 
+{
+    margin: 0;
+    padding: 0;
+    display: grid;
+    grid-template-areas: "header main main"
+    "aside main main"
+    "aside main main";
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto auto;
+    
+}
+
+.menu
+{
+    grid-area: header;
+    background-color: rgb(216, 213, 213);
+    height: 63px;
+    width: 358px;
+    border-right: 2px solid grey;
+    border-bottom: 2px solid grey;
+}
+.conversa 
+{
+    grid-area: aside;
+    background-color: rgb(255, 255, 255);
+    height: 600px;
+    width: 358px;
+    border-right: 2px solid grey;
+}
+.principal
+{
+    grid-area: main;
+    background-color: rgb(216, 213, 213);
+    width: 990px;
+    height: 665px;
+}
+
+/*
+.menu 
+{
+    background-color: blue;
+    height: 55px;
+    width: 35%;
+}
+.conversa 
+{
+    background-color: blue;
+    height: 650px;
+    width: 35%;
+}
+.principal 
+{
+    background-color: black;
+    width: 35%;
+    height: 650px;
+}
+*/
