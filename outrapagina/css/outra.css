@@ -16,7 +16,7 @@ body
     grid-area: header;
     background-color: rgb(216, 213, 213);
     height: 63px;
-    width: 358px;
+    width: 390px;
     border-right: 2px solid grey;
     border-bottom: 2px solid grey;
 }
@@ -25,6 +25,7 @@ body
     height: 40px;
     width: 40px;
     padding-top: 10px;
+    padding-left: 10px;
 }
 #opcoes
 {
@@ -33,6 +34,7 @@ body
     width: 25px;
     padding-top: 20px;
     margin: 0px;
+    padding-right: 15px;
 }
 #conversa
 {
@@ -40,28 +42,44 @@ body
     height: 30px;
     width: 30px;
     padding-top: 18px;
-    padding-right: 25px;
+    padding-right: 20px;
     margin: 0px;
 }
 #status 
 {
-    height: 50px;
-    width: 50px;
+    height: 30px;
+    width: 30px;
     float: right;
+    padding-right: 25px;
+    padding-top: 18px;
 }
-/*
+
 #comu 
 {
+    height: 30px;
+    width: 30px;
     float: right;
+    padding-top: 18px;
+    padding-right: 20px;
 }
-*/
+
 .conversa 
 {
     grid-area: aside;
     background-color: rgb(255, 255, 255);
     height: 600px;
-    width: 358px;
+    width: 390px;
     border-right: 2px solid grey;
+}
+.barra
+{
+    text-align: center;
+    padding-top: 10px;
+}
+.barra input
+{
+    height: 25px;
+    width: 150px;
 }
 .principal
 {
