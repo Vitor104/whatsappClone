@@ -22,9 +22,9 @@ body
 }
 .menu img 
 {
-    height: 40px;
-    width: 40px;
-    padding-top: 10px;
+    height: 30px;
+    width: 30px;
+    padding-top: 15px;
     padding-left: 10px;
 }
 #opcoes
@@ -75,10 +75,39 @@ body
 
 .contatos-conversas
 {
-    height: 60px;
+    height: 80px;
     width: 100%;
     background-color: rgb(255, 255, 255);
     border-bottom: 1px solid grey;
+    
+}
+.contatos-conversas p 
+{
+    padding-left: 95px;
+    margin: 0;
+    position: relative;
+    top: 25px;
+}
+.contatos-conversas h4 
+{
+    position: relative;
+    padding-left: 95px;
+    top: 10px;
+    margin: 0;
+    
+}
+.contatos-conversas img
+{
+    height: 50px;
+    width: 50px;
+    float: left;
+    padding-top: 10px;
+    padding-left: 10px;
+    border-radius: 30px;
+}
+.contatos-conversas:hover
+{
+    background-color: rgb(216, 213, 213);
 }
 .barra
 {
@@ -93,7 +122,7 @@ body
     width: 350px;
     border-radius: 7px;
 }
-input img
+.barra img
 {
     height: 15px;
     width: 15px;
