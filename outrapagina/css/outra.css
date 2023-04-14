@@ -9,6 +9,7 @@ body
     grid-template-columns: auto auto auto;
     grid-template-rows: auto auto auto;
     overflow-x: hidden;
+    overflow-y: hidden;
 }
 
 .menu
@@ -70,6 +71,7 @@ body
     height: 600px;
     width: 390px;
     border-right: 2px solid grey;
+    overflow-y: scroll;
 }
 
 
@@ -87,6 +89,7 @@ body
     margin: 0;
     position: relative;
     top: 25px;
+    color: black;
 }
 .contatos-conversas h4 
 {
@@ -94,7 +97,7 @@ body
     padding-left: 95px;
     top: 10px;
     margin: 0;
-    
+    color: black;
 }
 .contatos-conversas img
 {
@@ -104,6 +107,10 @@ body
     padding-top: 10px;
     padding-left: 10px;
     border-radius: 30px;
+}
+.contatos-conversas a 
+{
+    text-decoration: none;
 }
 .contatos-conversas:hover
 {
@@ -121,6 +128,8 @@ body
     height: 25px;
     width: 350px;
     border-radius: 7px;
+    border: transparent;
+    background-color: rgb(204, 204, 204);
 }
 .barra img
 {
@@ -138,7 +147,7 @@ body
 }
 .figura
 {
-    display: inline-block;
+    display: none;
     position: relative;
     background-color: rgba(159, 255, 255, 0.88);
     height: 300px;
@@ -150,4 +159,93 @@ body
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 150px;
 }
+.um 
+{
+    display: none;
+}
+.configs
+{
+    float: right;
+    height: 25px;
+    width: 25px;
+    padding-top: 18px;
+    margin: 0px;
+    padding-right: 55px;
+}
+.busca2
+{
+    float: right;
+    height: 25px;
+    width: 25px;
+    padding-top: 16px;
+    margin: 0px;
+    padding-right: 55px;
+}
+.photo
+{
+    height: 50px;
+    width: 50px;
+    float: left;
+    padding-top: 10px;
+    padding-left: 10px;
+    border-radius: 30px;
+}
 
+.header-conversa
+{
+    background-color: rgb(206, 198, 198);
+    width: 100%;
+    height: 63px;
+}
+.header-conversa h4
+{
+    position: relative;
+    padding-left: 75px;
+    top: 25px;
+    margin: 0;
+    color: black;
+}
+.footer-conversa
+{
+    background-color: rgb(206, 198, 198);
+    width: 100%;
+    height: 63px;
+    margin-top: 529px;
+}
+.mic
+{
+    float: right;
+    height: 25px;
+    width: 25px;
+    padding-top: 18px;
+    margin: 0px;
+    padding-right: 55px;
+}
+.mensagem input
+{
+    height: 35px;
+    width: 730px;
+    border-radius: 7px;
+    border: transparent;
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    bottom: 15px;
+    left: 530px;
+}
+.share
+{
+    height: 35px;
+    width: 35px;
+    margin: 0px;
+    padding-top: 15px;
+    position: relative;
+    left: 85px;
+}
+.emoji
+{
+   height: 25px;
+   width: 25px;
+   margin: 0px;
+   bottom: 20px
+   position: relative; 
+}
