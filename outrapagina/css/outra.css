@@ -106,7 +106,7 @@ body
     float: left;
     padding-top: 10px;
     padding-left: 10px;
-    border-radius: 30px;
+    border-radius: 36%;
 }
 .contatos-conversas a 
 {
@@ -129,7 +129,7 @@ body
     width: 350px;
     border-radius: 7px;
     border: transparent;
-    background-color: rgb(204, 204, 204);
+    background-color: rgb(221, 214, 214);
 }
 .barra img
 {
@@ -162,6 +162,7 @@ body
 .um 
 {
     display: none;
+    background-color: rgb(255, 255, 255);
 }
 .configs
 {
@@ -177,7 +178,7 @@ body
     float: right;
     height: 25px;
     width: 25px;
-    padding-top: 16px;
+    padding-top: 18px;
     margin: 0px;
     padding-right: 55px;
 }
@@ -186,9 +187,9 @@ body
     height: 50px;
     width: 50px;
     float: left;
-    padding-top: 10px;
+    padding-top: 8px;
     padding-left: 10px;
-    border-radius: 30px;
+    border-radius: 40%;
 }
 
 .header-conversa
@@ -239,13 +240,15 @@ body
     margin: 0px;
     padding-top: 15px;
     position: relative;
-    left: 85px;
+    left: 55px;
 }
 .emoji
 {
    height: 25px;
    width: 25px;
    margin: 0px;
-   bottom: 20px
-   position: relative; 
+   top: 20px;
+   position: relative;
+   float: left;
+   left: 35px;
 }
