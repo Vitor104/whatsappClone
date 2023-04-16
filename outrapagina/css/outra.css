@@ -17,7 +17,7 @@ body
     grid-area: header;
     background-color: rgb(216, 213, 213);
     height: 63px;
-    width: 390px;
+    width: 430px;
     border-right: 2px solid grey;
     border-bottom: 2px solid grey;
 }
@@ -69,7 +69,7 @@ body
     grid-area: aside;
     background-color: rgb(255, 255, 255);
     height: 600px;
-    width: 390px;
+    width: 430px;
     border-right: 2px solid grey;
     overflow-y: scroll;
 }
@@ -81,7 +81,7 @@ body
     width: 100%;
     background-color: rgb(255, 255, 255);
     border-bottom: 1px solid grey;
-    
+    position: relative;
 }
 .contatos-conversas p 
 {
@@ -90,6 +90,7 @@ body
     position: relative;
     top: 25px;
     color: black;
+    font-size: 10;
 }
 .contatos-conversas h4 
 {
@@ -104,7 +105,7 @@ body
     height: 50px;
     width: 50px;
     float: left;
-    padding-top: 10px;
+    padding-top: 15px;
     padding-left: 10px;
     
 }
@@ -114,9 +115,8 @@ body
 }
 .contatos-conversas:hover
 {
-    background-color: rgb(216, 213, 213);
+    background-color: rgb(216, 213, 213, 0.18);
 }
-
 .barra
 {
     text-align: center;
@@ -162,8 +162,8 @@ body
 }
 .um 
 {
-    display: none;
-    background-color: rgb(255, 255, 255);
+    display: ;
+    background-color: blue;
 }
 .configs
 {
@@ -172,7 +172,7 @@ body
     width: 25px;
     padding-top: 18px;
     margin: 0px;
-    padding-right: 55px;
+    padding-right: 85px;
 }
 .busca2
 {
@@ -195,7 +195,7 @@ body
 
 .header-conversa
 {
-    background-color: rgb(206, 198, 198);
+    background-color: rgb(216, 213, 213);
     width: 100%;
     height: 63px;
 }
@@ -209,19 +209,19 @@ body
 }
 .footer-conversa
 {
-    background-color: rgb(206, 198, 198);
+    background-color: rgb(216, 213, 213);
     width: 100%;
     height: 63px;
-    margin-top: 529px;
+    margin-top: 500px;
 }
 .mic
 {
     float: right;
     height: 25px;
     width: 25px;
-    padding-top: 18px;
+    padding-top: 15px;
     margin: 0px;
-    padding-right: 55px;
+    padding-right: 95px;
 }
 .mensagem input
 {
@@ -231,31 +231,55 @@ body
     border: transparent;
     background-color: rgb(255, 255, 255);
     position: absolute;
-    bottom: 15px;
-    left: 530px;
+    bottom: 13px;
+    left: 550px;
 }
 .share
 {
     height: 35px;
     width: 35px;
     margin: 0px;
-    padding-top: 15px;
+    padding-top: 10px;
     position: relative;
-    left: 55px;
+    left: 35px;
 }
 .emoji
 {
    height: 25px;
    width: 25px;
    margin: 0px;
-   top: 20px;
+   top: 15px;
    position: relative;
    float: left;
-   left: 35px;
+   left: 15px;
 }
-
-.dois 
+.chat
 {
-    display: none;
+    position: relative;
+}
+.primeira-mensagem
+{
+    color: black;
+    background-color: green;
+    width: 260px;
+    border-radius: 8px;
+    margin-left: 650px;
+    border-top-right-radius: 0%;
+    height: 52px;
+}
+.primeira-mensagem p
+{
+    font-size: 12px;
 }
 
+#hora 
+{
+    color: black;
+    background-color: green;
+    width: 30px;
+    margin-left: 215px;
+    margin-top: 0px;
+    font-size: 13px;
+    position: relative;
+    bottom: 10px;
+}
