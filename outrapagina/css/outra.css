@@ -250,7 +250,7 @@ body
     border: transparent;
     background-color: rgb(255, 255, 255);
     position: absolute;
-    bottom: 3.5px;
+    bottom: 0.9em;
     left: 550px;
 }
 .share
